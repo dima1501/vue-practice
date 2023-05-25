@@ -3,8 +3,8 @@ import UserForm from '../components/UserForm.vue';
 import PreviewPage from '../components/PreviewPage.vue';
 
 const routes = [
-  { path: '/', component: UserForm },
-  { path: '/preview', component: PreviewPage }
+  { path: '/vue-test-alef', component: UserForm },
+  { path: '/vue-test-alef/preview', component: PreviewPage }
 ];
 
 const router = createRouter({
