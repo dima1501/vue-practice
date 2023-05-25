@@ -1,11 +1,12 @@
 <template>
   <header class="header">
-    <router-link to="/" class="header__logo">
+    <router-link to="/vue-test-alef" class="header__logo">
       <img src="./assets/logo.svg" alt="logo">
     </router-link>
     <div class="header__links">
-      <router-link class="header__links-item" to="/" active-class="_active" exact>Форма</router-link>
-      <router-link class="header__links-item" to="/preview" active-class="_active" exact>Превью</router-link>
+      <router-link class="header__links-item" to="/vue-test-alef/" active-class="_active" exact>Форма</router-link>
+      <router-link class="header__links-item" to="/vue-test-alef/preview" active-class="_active"
+        exact>Превью</router-link>
     </div>
   </header>
 

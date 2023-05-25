@@ -83,7 +83,7 @@ export default {
             };
             setDataToLS(userData);
             store.commit('userData/setUserData', userData);
-            router.push("/preview");
+            router.push("/vue-test-alef/preview");
         }
         return {
             userInfo,
