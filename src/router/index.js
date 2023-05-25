@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import UserForm from '../components/UserForm.vue';
-import PreviewPage from '../components/PreviewPage.vue';
+import UserForm from '../views/UserForm.vue';
+import PreviewPage from '../views/PreviewPage.vue';
 
 const routes = [
   { path: '/vue-test-alef', component: UserForm },
